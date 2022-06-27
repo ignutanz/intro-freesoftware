@@ -3,7 +3,7 @@ CourseName: Certificate course in Free/Libre Software
 #####################################################
 
 
-> Created in reStructuredText with GNU Emacs for TED by Tanzeem MB, Programmer, Informatics Division, C-DIT
+> Created in reStructuredText with GNU Emacs by Tanzeem MB, Programmer, Informatics Division, C-DIT
 
 
 Document version 1.1 
@@ -27,12 +27,6 @@ equipped with the knowledge of what is free software and its importance, how to 
 popular GUI like GNOME, KDE, Xfce, Mate, Cinnamon. Usage of popular text editers like GNU Emacs and Vim, nano, pico will be discussed.
 Basics of installation of GNU/Linux OSes and basic system configuration methods will be discusssed in the course.
 
-Course Prerequisite
-===================
-
-- Basic awareness in Information Technology.
-
-See https://elearning.cdit.org/course Part-1 of the course: "IT Applications in Daily Life"
 
 ****************************************
 Session 1- Introduction to Free Software
