@@ -1,0 +1,86 @@
+
+===========================================
+ Session 2- Free Software Operating Systems
+===========================================
+Time: 1 hour 35 mts
+
+-  Major GNU/Linux Oses Debian,Ubuntu,CentOS/RedHat - Introduction and differences   (15mts)
+- Other GNU OS: FreeBSD,OpenBSD,Gentoo,Arch
+- The Linux Terminal - Commands for directory and file manipulation,
+   mc-midnight commander terminal based file manager.
+   The commandline shell: Bash,zsh.
+   Basic network commands like ftp,scp,lynx,wget,curl. Terminal editers pico, nano. Using Terminal multiplexers.   (20 mts)
+- GNU Emacs (20 mts)
+- Vi  (10 mts)
+- Desktop Enivronments - GNOME, KDE, Cinnamon, Mate, XFCE/LXDE
+  (demo videos and images)
+  (15 mts)
+
+GNU/Linux OSes: Debian, Ubuntu, CentOS/RedHat
+=============================================
+Time : 15 mts
+
+This session focuses on various GNU/Linux operating systems.
+
+Debian GNU/Linux
+----------------
+
+Among the popular operating systems is the Debian GNU/Linux operating system also known as the universal operating system.
+Debian was begun in August 1993 by Ian Murdock.
+Debian systems currently use the Linux kernel or the FreeBSD kernel.
+
+.. figure:: Debian-OpenLogo.png
+
+   The Debian Logo
+   
+To get Debian, visit the link: https://www.debian.org/distrib/
+
+The codenames used in naming a Debian release is based on the characters of Toy Story.
+Debian 10 is codenamed Buster and Debian 11 is codenamed BullsEye.
+Every test release of Debian is codenamed sid.
+
+The Debian project is developed over the internet by a community of volunteers in their free time lead by a Debian project leader
+and following a Debian constituition, the Debian Free Software Guidelines (DFSG) and the Debian Social Contract.
+
+The Debian project was initially funded by the FSF and later on by the SPI, formed by the Debian project.
+Debian project comes with over 59000 packages((precompiled software that is bundled up in a nice format for easy installation on your machine).
+
+Package Manager used: APT(Advanced Packaging Tool)
+Package format: .deb
+
+Official Website : https://www.debian.org/
+Mailing list: lists.debian.org
+IRC: #debian channel at irc.debian.org
+
+The major reasons why people choose Debian are:
+
+- Debian is complete free software 
+- Debian is a stable and secure linux operating system
+- Debian has extensive hardware support
+- Debian provides smooth upgrades
+- Debian is the seed and base for many other distributions.
+  Many of the most popular Linux distributions, like Ubuntu, Knoppix, PureOS, SteamOS or Tails, choose Debian as a base.
+- The Debian project is a community.
+  Debian is not only a Linux operating system. The software is co-produced by hundreds of volunteers from all over the world. Anyone can be part of the Debian community even if he/she is not a programmer or sysadmin. Debian is community and consensus driven and has a democratic governance structure. Since all Debian developers have equal rights it cannot be controlled by a single company. 
+
+IoT and embedded devices supported by Debian include Raspberry Pi, variants of QNAP, mobile devices, home routers and a lot of Single Board Computers (SBC).
+
+Debian supports multiple hardware architectures including amd64, i386, multiple versions of ARM and MIPS, RISC-V.
+
+Debian Pure Blends
+^^^^^^^^^^^^^^^^^^
+
+A Debian pure blend is a project completely inside Debian which aims to suit specialized needs with a common goal to simplify the installation and administration of computers for their target audience. Debian pure blends are available for lawyers, children, medical staff, scientists, gamers, visually impaired people etc.
+
+Examples: Debian Edu, Debian Junior, Debian Med, Debian Multimedia, Debian Games, Debian Science, Freedombox.
+
+For more details and to download Debian Pure blends see link https://www.debian.org/blends/ 
+
+
+----
+
+> Content Version 1.0 prepared by Tanzeem M B, Programmer, Informatics Division, C-DIT
+date: 
+
+
+

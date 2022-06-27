@@ -1,0 +1,944 @@
+#+TITLE:     Certificate Course in Free Software
+#+AUTHOR:    C-DIT
+#+EMAIL:     tanzeem@protonmail.com
+#+DATE:      2020-12-11
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:https://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+HTML_LINK_UP:
+#+HTML_LINK_HOME:
+
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+
+#+BEAMER_FRAME_LEVEL: 2
+
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+
+#+latex_header: \usepackage[style=apa,natbib=true,hyperref=true,backref=true,maxcitenames=3,url=true,backend=biber,doi=true,isbn=false,eprint=false]{biblatex}
+
+#+LATEX_HEADER: \definecolor{purple_royal}{RGB}{69, 28, 102}
+#+LATEX_HEADER: \definecolor{purple_plain}{RGB}{131, 102, 188}
+#+LATEX_HEADER: \definecolor{grey}{RGB}{51, 63, 72}
+#+LATEX_HEADER: \definecolor{DodgerBlue4}{RGB}{16, 78, 139}
+#+LATEX_HEADER: \definecolor{PaleGreen1}{RGB}{154, 255, 154}
+#+LATEX_HEADER: \usepackage{amsmath,amsfonts,amssymb,amsthm,enumerate,multirow,array,graphicx,lscape,lastpage,mathabx,csquotes}
+
+#+latex_header: \usetheme{CambridgeUS}
+#+latex_header: \usecolortheme{beaver}
+
+#+LATEX_HEADER: \usepackage{fontawesome}
+#+LaTeX_HEADER: \hypersetup{linktoc = all, colorlinks = true, urlcolor = DodgerBlue4, citecolor = PaleGreen1, linkcolor = black}
+#+LATEX_HEADER: \usefonttheme{professionalfonts}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usetikzlibrary{calc}
+#+LATEX_HEADER: \usepackage{subfig}
+#+LATEX_HEADER: \setbeamercolor{title}{fg=DodgerBlue4}
+#+LATEX_HEADER: \setbeamercolor{frametitle}{fg=black}
+#+LATEX_HEADER: \setbeamercolor{structure}{fg=purple_royal}
+#+LATEX_HEADER: \setbeamercolor{section in head/foot}{fg=white, bg=purple_plain}
+#+LATEX_HEADER: \setbeamercolor{title in head/foot}{fg=white, bg=purple_royal}
+#+LATEX_HEADER: \setbeamercolor{date in head/foot}{fg=grey}
+#+LATEX_HEADER: \captionsetup[figure]{labelformat=empty}
+
+#+LATEX_HEADER: \setbeamertemplate{footline}
+#+LATEX_HEADER: {
+#+LATEX_HEADER: \leavevmode%
+#+LATEX_HEADER: \hbox{%
+#+LATEX_HEADER: \begin{beamercolorbox}[wd=.75\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+#+LATEX_HEADER: \usebeamerfont{author in head/foot}\inserttitle
+#+LATEX_HEADER: \end{beamercolorbox}%
+#+LATEX_HEADER: %\begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{section in head/foot}%
+#+LATEX_HEADER: %\usebeamerfont{title in head/foot}\insertsection
+#+LATEX_HEADER: %\end{beamercolorbox}%
+#+LATEX_HEADER: \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{date in head/foot}%
+#+LATEX_HEADER: \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+#+LATEX_HEADER:  \end{beamercolorbox}}%
+#+LATEX_HEADER:  \vskip0pt%
+#+LATEX_HEADER: }
+
+#+LATEX_HEADER: \subtitle{Session-1: Introduction to Free Software}
+
+#+LATEX_HEADER: \author{CDIT}
+#+LATEX_HEADER: \setbeamersize{text margin right=7mm}
+#+LATEX_HEADER: \setbeameroption{show notes}
+
+#+OPTIONS: num:nil toc:nil todo:t
+
+#+BIND: org-beamer-frame-default-options "allowframebreaks"
+
+* Session-1 Introduction to Free Software
+** Definition of Free Software
+
+*** What is free software
+
+- *Free Software is a matter of liberty not price* !
+- The four freedoms of free software
+   + Freedom 0: Freedom to /run the  program as you wish, for any purpose/
+   + Freedom 1: Freedom to /study the program/
+   + Freedom 2: Freedom to /redistribute verbatim copies/
+   + Freedom 3: Freedom to /redistribute modified copies/
+  
+** Origins and history 
+
+*** Origins and History						  
+    
+- CONTU 1974
+- Richard Stallman
+- The /GNU/ Project 1983
+- The /Free Software Foundation/ 1985
+- /Linus Torwarlds/ publishes the /Linux/ Kernel 1991
+   
+
+** Proprietary,Freeware,Shareware
+*** Proprietary, Freeware, Shareware
+
+    - Proprietary Software
+    - Freeware
+    - Freemium  
+    - Shareware
+
+
+** People in FOSS
+
+*** People in FOSS
+**** Richard Stallman 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.5
+     :END:
+
+Richard Stallman- Founder of the free software movement and the GNU project
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.5\textheight]{stallman.png}
+\caption{Richard Stallman}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** People in FOSS
+**** Linus Torwarlds 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_col: 0.5
+     :END:
+
+*Linus Torwarlds* - Founder of the *Linux Kernel* used in popular GNU/Linux operating systems.
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.5\textheight]{linus-torwarlds.png}
+\caption{Linus Torwarlds}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+
+*** People in FOSS
+**** Eric Raymond 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.4
+     :END:
+
+*Eric Raymond* - Founder of the Open Source Initiative
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.5\textheight]{Eric_S_Raymond.jpg}
+\caption{Eric S Raymond}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** People in FOSS
+**** Ian Murdock 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.5
+     :END:
+
+*Ian Murdock* - Founder of *Debian GNU/Linux* operating system.
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.4\textheight]{ian_murdock.jpg}
+\caption{Photo of Ian Murdock- Attribute: "Ilya Schurov, Computerra Weekly"}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+
+
+*** People in FOSS
+**** Aaron Swartz 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.5
+     :END:
+
+*Aaron Swartz* - Famous internet programmer and hacktivist.
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.4\textheight]{aaron-swartz.jpg}
+\caption{Aaron Swartz}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+
+
+
+*** People in FOSS
+**** Aaron Swartz 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.6
+     :END:
+
+*Lawrence Lessig* - Founder of Creative Commons.
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.6\textheight]{Lawrence_Lessig.jpg}
+\caption{Lawrence Lessig}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+
+
+
+*** People in FOSS
+
+- Mark Shuttleworth (Founder- Ubuntu GNU/Linux)
+- Larry Wall (Founder -PERL Programming Language)
+- Guido van Rossum (Founder - Python Programming language)
+- Rasmus Lerdoff (Founder - PHP Programming language)
+- And more...
+
+** Difference between opensource and free software
+
+*** New Terms: OpenSource, FOSS, FLOSS
+
+- Cathedral and Bazaar development models
+- Open Source Initiative
+- Open Source Definition
+  + Free Redistribution
+  + Source Code
+  + Derived Works
+  + Integrity of the author's source code
+  + No Discrimination Against Persons or Groups    
+  + No Discrimination Against Fields of Endeavor
+  + Distribution of License
+  + License must not be specific to a product
+  + License must not restrict other software
+  + License must be technology-neutral
+  
+*** OpenSource vs/and FreeSoftware
+
+- Differences in the community 
+- FOSS
+- FLOSS
+
+** Major organizations promoting FOSS
+
+*** Major organizations promoting FOSS
+**** FSF 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:
+
+*The Free Software Foundation*
+
+https://www.fsf.org/
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.1\textheight]{fsf.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+- Founded in *Oct 4 1985* by *Richard M Stallman*
+- Major projects
+  + The GNU Operating System
+  + Free Software Directory
+  + GNU Licenses
+  + Respect Your Freedom (RYF) hardware endorsement program
+  + H-node Project
+
+*** Major organizations promoting FOSS
+**** SFC 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:
+
+*Software Freedom Conservancy*
+
+https://sfconservancy.org/
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.3\textheight]{SFC.jpg}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+- Not for profit charity that helps promote, improve develop and defend Free,Libre and Open Source (FLOSS) projects
+- Allows FLOSS developers to focus on development and documentation
+
+
+
+*** Major organizations promoting FOSS
+**** Creative Commons 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:
+
+*Creative Commons*
+
+https://creativecommons.org
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.1\textheight]{CC-logo.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+- Founded by *Lawrence Lessig, Hal Abelson, and Eric Eldred* in *2001*
+- Sharing of Knowledge and creative contents under CC Licenses
+- Events: The CC Summit
+- Creative Commons Search Tool
+- CC Legal Database (new)
+
+*** Major organizations promoting FOSS
+**** EFF 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.8
+     :END:
+
+*Electronic Frontier Foundation*
+
+https://www.eff.org
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.1\textheight]{EFF.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+- International Digital rights group
+- Promotes internet civil liberties
+- Founded in *1990* 
+
+
+
+*** Major organizations promoting FOSS
+**** DFF 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.8
+     :END:
+
+*Digital Freedom Foundation*
+
+ https://digitalfreedomfoundation.org/
+
+- Freedom day events organized by DFF:
+
+   - Education Freedom Day (third Saturday in January)
+   - Document Freedom Day (last Wednesday of March)
+   - Hardware Freedom Day (third Saturday in April)
+   - Culture Freedom Day (third Saturday in May)
+   - Software Freedom Day (third Saturday in September)
+
+DFF India: https://dff.org.in/ 
+
+
+
+
+
+*** Major organizations promoting FOSS
+**** OSI 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.8
+     :END:
+
+*Open Source Initiative (OSI)* 
+
+https://opensource.org
+
+ - Founded in *1998* by *Bruce Perence* and *Eric Raymond*
+ - Developed the open source definition
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.5\textheight]{OSI.png}
+
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** Major organizations promoting FOSS
+**** SFLC 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.8
+     :END:
+
+*Software Freedom Law Centre (SFLC)* 
+https://softwarefreedom.org
+
+ - Founded in /Feb 2005/ by /Eben Moglen/
+ - Provides legal representation to not-for-profit organizations
+ - Patent Defence
+ - Stands for protection of free software licenses
+ - FSF vs Cisco 2008
+ - Services offered
+   + Public Education
+   + Consulting and training : FOSS Legal issues
+ 
+
+*** Major organizations promoting FOSS
+**** Linux Foundation 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+*The Linux Foundation* 
+ https://www.linuxfoundation.org
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.1\textheight]{LinuxFoundation.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+ - Founded in *2000* as a merger of Open source development labs and the free standards group
+ - Linux standardization, support and commercialization
+ - Hosts and promotes collaborative development of open source projects
+ - Major Projects: *Linux kernel, Hyperledger, Kubernetes, Nodejs,Tizen, Xen*
+     
+
+
+
+
+
+
+
+*** Major organizations promoting FOSS
+**** SPI 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+*Software in the Public Interest (SPI)*
+
+https://www.spi-inc.org
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{SPI-logo.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+ - Non-Profit corporation acting as a fiscal sponsor of organizations that develop opensource software and hardware
+ - Founded in *1997* initially to fund Debian projects 
+ - Major projects associated with SPI include /Arch Linux/, /LibreOffice/, /Postgresql/ etc
+
+ 
+
+
+
+
+
+*** Major organizations promoting FOSS
+**** ASF 							      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+*Apache Software Foundation*
+
+https://apache.org
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{Apache-Logo.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+ - American non-profit founded in *1999* 
+ - Apache Licenses and Apache webserver
+ - Creates and maintains 300+ Apache projects and their communities
+ - ApacheCon : Global conference of the ASF.
+
+*** Major organizations promoting FOSS
+**** OSM-Fundation 						      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+*OpenStreetmap Foundation*
+
+See https://www.openstreetmap.org/ and https://wiki.osmfoundation.org/wiki/Main_Page
+ 
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{OSM-logo.jpg}
+\caption{OpenStreetmap Logo}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+ - Non-profit founded in *2006* to support and enable freely reusable geospatial data
+ 
+
+
+
+
+
+
+*** Major organizations promoting FOSS-OKF 
+**** Open Knowledge Foundation 					      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+*Open Knowledge Foundation*
+
+ http://okfn.org/
+ 
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{OKF-logo.png}
+\caption{OKF Logo - CC-BY-4.0}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+ - Non-profit founded in *May 2004* by *Rufus Pollock*
+ - To promote and share information at no charge, including both content and data.
+ 
+
+*** Major organizations promoting FOSS-OKF
+**** Open Knowledge Foundation 					      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+*Open Knowledge Foundation Events*
+ 
+   + OKCon
+   + International Open Data Day
+
+
+*Projects of Open Knowledge Foundation*
+
+   + CKAN
+   + Data Hub
+   + OpenBibiliography
+   + OpenEconomics
+   + OpenGLAM
+
+
+** Free Software Licenses
+
+*** Protective Free Software Licenses
+**** Free Software Licenses 					      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+- Protective License (CopyLeft)
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{copyleft-symbol.png}
+\caption{Copyleft symbol}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+  + Strongly Protective 
+  + Weakly Protective
+    
+*** Strongly Protective Free Software Licenses
+  
+- GNU General Public License (GPL)
+- GNU Affero General Public License (AGPL)
+- Design Science License    
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.3\textheight]{GPL3-logo.png}
+\includegraphics[height=0.3\textheight]{AGPLv3-logo.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** Weakly Protective Free Software Licenses
+  
+- GNU Lesser General Public License (LGPL)
+- Mozilla Public License (MPL)   
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{LGPLv3.png}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** Permissive Free Software Licenses
+  
+- GNU All Permissive License
+- MIT License
+- BSD Licenses
+- Apache License
+- Software in Public Domain   
+
+
+*** License Compatibility Matrix
+
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.4\textheight]{license-compatibility.png}
+\caption{License compatibility between common FOSS software licenses according to David A. Wheeler (2007): the vector arrows denote a one directional compatibility, therefore better compatibility on the left side ("permissive licenses") than on the right side ("copyleft licenses").
+}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT  
+  
+*** Free Documentation Licenses
+**** Documentation Licenses 					      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+There are separate licenses for documentation works.
+
+- GNU Free Documentation License (FDL)
+- FreeBSD Documentation License
+- Apple's Common Documentation License v1.0
+- Open Publication License v1.0
+
+  
+*** License for other works
+**** License for other works 					      :BMCOL:
+     :PROPERTIES:
+     :BEAMER_OPT: allowframebreaks
+     :BEAMER_col: 0.9
+     :END:      
+
+
+- License for Fonts
+  + GPL
+  + Arphic Public License
+
+- License for works stating a viewpoint
+  + GNU Verbatim copying license
+  + CC BY-ND
+
+- License for designs of physical objects
+  + GPL v3
+  + CC BY
+  + CC BY SA
+  + CC 0
+
+** Creative Commons Licenses
+*** Creative Commons Licenses CC BY
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{cc-by.png}
+\caption
+{
+CC-BY Permits reuser to distribute, remix, adapt, and build upon in any medium/format, allows commercial use, attribution(credit) must be given to the creator
+}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** Creative Commons License CC BY SA
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{cc-by-sa.png}
+\caption
+{
+ CC-BY-SA License permits the same terms and condition as CC-BY with a restriction(SA-Share Alike) that adaptations must be shared under the same terms.
+}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** Creative Commons License CC BY NC 
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{cc-by-nc.png}
+\caption
+{
+ CC-BY-NC license permits the same terms as CC-BY but no commercial use is permitted.
+}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** Creative Commons License CC BY NC SA 
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{cc-by-nc-sa.png}
+\caption
+{
+ CC-BY-NC-SA permits the same terms as given by CC-BY-NC with the restriction of Share Alike(SA) ie derivates should be shared under the same terms.
+}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+*** Creative Commons License CC BY ND 
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{cc-by-nd.png}
+\caption
+{
+CC-BY-ND allows reusers to copy and distribute the material in any medium or format in unadapted form only.attribution should be given.Commercial use allowed.
+}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+
+*** Creative Commons License CC 0 
+
+#+BEGIN_EXPORT latex
+
+\centering
+\begin{figure}
+\includegraphics[height=0.2\textheight]{cc-zero.png}
+\caption
+{
+ CC-Zero allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions.
+}
+\end{figure}
+
+\raggedright
+
+\normalsize
+
+\framebreak
+#+END_EXPORT
+
+** Conclusion
+*** Thank You
+
+The slide presentation was created with
+
+- GNU Emacs
+- Org-mode 
+- Beamer/ LaTeX
