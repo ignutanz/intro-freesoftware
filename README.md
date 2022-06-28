@@ -134,4 +134,4 @@ See https://github.com/ignutanz/intro-freesoftware/blob/main/content/session-01-
 See  ``/content/presentation.org`` and ``content/presentation.pdf`` created with beamer/laTeX
 
 > Thanks 
-Copy Left CC-By-Zero
+Copy Left CC-By-SA
