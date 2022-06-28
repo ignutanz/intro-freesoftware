@@ -131,6 +131,7 @@ Time: 1 hr
 
 For the detailed content on Session -1 
 See https://github.com/ignutanz/intro-freesoftware/blob/main/content/session-01-v1.1.rst 
+See  ``/content/presentation.org`` and ``content/presentation.pdf`` created with beamer/laTeX
 
 > Thanks 
 Copy Left CC-By-Zero
